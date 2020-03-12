@@ -1,0 +1,30 @@
+{
+  "comment1": " seconds_between_key_checks and seconds_between_game_checks should be changed to better reflect your needs , the default settings are for intensive checking , I recommend changing it to 30-60 seconds if you dont want it to check too often.",
+  "comment2": " setting seconds_between_key_checks or seconds_between_game_checks to 0 will stop the script from checking that category.",
+  "comment3": " alive_message_interval_in_minutes and show_details are mostly for debugging when you first setup the script , changing show_details to true will show every game with its price when it gets checked , changing alive_message_interval_in_minutes to 0 will stop displaying alive messages any other positive values will be the minutes between showing the message",
+  "seconds_between_key_checks": 0,
+  "seconds_between_game_checks": 3,
+  "alive_message_interval_in_minutes": 60,
+  "show_details": true,
+  "audio_notification": true,
+  "to_notify": [
+    "76561198060157004"
+  ],
+  "gamesbuy": [
+    {
+      "links": "xxxxxxxxxxxxxxxxx",
+      "price": 0,
+      "name": "last links"
+    }
+  ],
+  "gamessell": [
+    {
+      "links": "xxxxxxxxxxxxxxxxx",
+      "price": 0,
+      "name": "last links"
+    }
+  ],
+  "keysprice": 0,
+  "keys": [
+  ]
+}

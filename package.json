@@ -1,0 +1,16 @@
+{
+  "name": "G2a-price-trackerv2",
+  "version": "1.0.0",
+  "description": "A script for tracking g2a games/keys prices",
+  "main": "tracker.js",
+  "author": "Surubariu Razvan",
+  "license": "ISC",
+  "dependencies": {
+    "steam-user": "^3.15.0",
+    "steamcommunity": "^3.30.0",
+    "steam-totp": "^1.4.0",
+    "lodash": "^4.15.0",
+    "path": "^0.12.7",
+    "request": "*"
+  }
+}
